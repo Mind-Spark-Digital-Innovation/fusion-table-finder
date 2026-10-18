@@ -28,13 +28,12 @@
     "noPropertyAccessFromIndexSignature": true,
 
     // Path mapping
-    "baseUrl": ".",
     "paths": {
-      "@src/*": ["src/*"],
-      "@domain/*": ["src/domain/*"],
-      "@adapters/*": ["src/adapters/*"],
-      "@ports/*": ["src/ports/*"],
-      "@mcp/*": ["src/mcp/*"]
+      "@src/*": ["./src/*"],
+      "@domain/*": ["./src/domain/*"],
+      "@adapters/*": ["./src/adapters/*"],
+      "@ports/*": ["./src/ports/*"],
+      "@mcp/*": ["./src/mcp/*"]
     }
   }
 }
