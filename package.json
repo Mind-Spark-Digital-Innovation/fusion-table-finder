@@ -4,7 +4,12 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "typecheck": "bun check"
+    "typecheck": "bun check",
+    "dev": "bun run dev",
+    "build": "bun build",
+    "start": "bun run start",
+    "db:seed": "bun run src/scripts/seed.ts",
+    "db:refresh": "rm -f fusion_metadata.db && bun run db:seed"
   },
   "devDependencies": {
     "@types/bun": "latest"
